@@ -21,7 +21,7 @@ app.use(bodyParser.json());
 app.set('view engine', 'ejs');
 
 // Mongo URI
-const mongoURI = 'mongodb+srv://Mohak:trial123@cluster0.1divz.mongodb.net/Cluster0?retryWrites=true&w=majority';
+const mongoURI = 'ENTER YOUR LINK HERE';
 
 // Create mongo connection
 const conn = mongoose.createConnection(mongoURI);
