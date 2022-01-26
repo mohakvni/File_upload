@@ -67,7 +67,8 @@ app.get('/', (req, res)=>{
 
 // @route POST /upload
 // @desc  Uploads file to DB
-app.post('/upload', upload.single('file'), (req, res) => {
+// 'file' is the ID of the input in index.ejs
+app.post('/upload', upload.single('file'), (req, res) => { 
     // res.json({ file: req.file });
     res.redirect('/');
   });
